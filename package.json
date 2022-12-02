@@ -1,0 +1,22 @@
+{
+  "name": "simple-sass-practice-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazrulislambhat/nazrul-sass-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nazrulislambhat/nazrul-sass-practice/issues"
+  },
+  "homepage": "https://github.com/nazrulislambhat/nazrul-sass-practice#readme",
+  "dependencies": {
+    "sass": "^1.56.1"
+  }
+}
