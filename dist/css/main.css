@@ -23,7 +23,7 @@ select {
   --c-color-0: #f5dd90;
   --c-color-1: #e2f89c;
   --c-color-2: #ff784f;
-  --c-color-3: #9dd9d2;
+  --c-color-3: #53F4FF;
   --c-color-4: #392f5a;
   --c-color-5: #5ab1bb;
   --c-color-6: #0fff95;
@@ -34,6 +34,7 @@ select {
   --c-white: #fefffe;
   --c-black: #000101;
   --c-black-50: #0d1321;
+  --c-black-20: #343434;
 }
 
 @font-face {
@@ -57,12 +58,65 @@ select {
   --f-secondary: "Rubik";
 }
 
-.header__cta {
-  font-family: var(--f-secondary);
-  padding: 20px 30px;
-  border-radius: 5px;
-  border: none;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1.5px solid var(--c-black-50);
+  height: 100px;
+}
+.header__logo {
+  max-width: 50px;
+  max-height: 50px;
   cursor: pointer;
+}
+.header__logo img {
+  width: 100%;
+}
+.header__nav {
+  margin-left: 55%;
+  flex-basis: 100%;
+}
+.header__nav ul {
+  display: flex;
+}
+.header__nav ul li {
+  list-style: none;
+  padding: 0px 10px;
+}
+.header__nav ul li a {
+  font-family: var(--f-primary);
+  text-decoration: none;
+  font-size: 1em;
+  color: var(--c-black);
+}
+.header__nav ul li a:hover {
+  border-bottom: 1.5px solid var(--c-black-50);
+}
+.header__cta {
+  background: none;
+  border: none;
+  font-family: var(--f-secondary);
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 5px;
+  color: var(--c-black-20);
+  background-color: var(--c-color-1);
+  border: 2px solid var(--c-black-20);
+  text-transform: uppercase;
+  box-shadow: 5px 5px 1px var(--c-color-2);
+}
+.header__cta:hover {
+  box-shadow: 5px 5px 1px var(--c-color-1);
+  background-color: var(--c-color-2);
+}
+
+.container-wrapper {
+  background-color: var(--c-white);
+}
+
+.container-inner {
+  padding: 0px 85px;
 }
 
 /*# sourceMappingURL=main.css.map */
