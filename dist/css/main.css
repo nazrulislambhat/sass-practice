@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: aquamarine;
 }
 
 img,
@@ -18,6 +17,52 @@ textarea,
 button,
 select {
   font: inherit;
+}
+
+:root {
+  --c-color-0: #f5dd90;
+  --c-color-1: #e2f89c;
+  --c-color-2: #ff784f;
+  --c-color-3: #9dd9d2;
+  --c-color-4: #392f5a;
+  --c-color-5: #5ab1bb;
+  --c-color-6: #0fff95;
+  --c-color-7: #324376;
+  --c-color-8: #07004d;
+  --c-color-9: #0b132b;
+  --c-background: #f2f2f2;
+  --c-white: #fefffe;
+  --c-black: #000101;
+  --c-black-50: #0d1321;
+}
+
+@font-face {
+  font-family: "NotoRegular";
+  font-style: normal;
+  src: url("../../../fonts/NotoSans-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NotoBold";
+  font-style: normal;
+  src: url("../../../fonts/NotoSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  src: url("../../../fonts/RubikDistressed-Regular.ttf") format("truetype");
+}
+:root {
+  --f-primary: "NotoRegular";
+  --f-primary-bold: "NotoBold";
+  --f-secondary: "Rubik";
+}
+
+.header__cta {
+  font-family: var(--f-secondary);
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
