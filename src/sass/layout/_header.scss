@@ -38,12 +38,11 @@
     font-family: var(--f-secondary);
     cursor: pointer;
     padding: 12px 24px;
-    border-radius: 5px;
     color: var(--c-black-20);
     background-color: var(--c-color-1);
-    border: 2px solid var(--c-black-20);
+    border: 1px solid var(--c-black-20);
     text-transform: uppercase;
-    box-shadow: 5px 5px 1px var(--c-color-2);
+    box-shadow: 5px 5px 0px 1px var(--c-color-2);
     &:hover {
       box-shadow: 5px 5px 1px var(--c-color-1);
       background-color: var(--c-color-2);
