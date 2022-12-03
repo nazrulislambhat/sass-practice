@@ -1,12 +1,12 @@
 .slider {
-  width: 80%;
-  height: 550px;
+  width: 800px;
+  height: 450px;
   margin-top: 50px;
   margin: auto;
   position: relative;
   overflow: hidden;
   img {
-    aspect-ratio: 4/3;
+    //aspect-ratio: 4/3;
     object-fit: cover;
   }
   &__navigation {

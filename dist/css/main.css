@@ -111,15 +111,14 @@ select {
 }
 
 .slider {
-  width: 80%;
-  height: 550px;
+  width: 800px;
+  height: 450px;
   margin-top: 50px;
   margin: auto;
   position: relative;
   overflow: hidden;
 }
 .slider img {
-  aspect-ratio: 4/3;
   object-fit: cover;
 }
 .slider__navigation {
