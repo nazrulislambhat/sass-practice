@@ -112,25 +112,24 @@ select {
 
 main {
   width: 80%;
-  height: 400px;
+  height: 550px;
   margin-top: 50px;
   margin: auto;
   position: relative;
   overflow: hidden;
 }
 main img {
-  aspect-ratio: 16/9;
+  aspect-ratio: 4/3;
+  object-fit: cover;
 }
 
 .slide {
-  width: 100%;
-  height: 100%;
   position: absolute;
   transition: 1s;
 }
 
 .slider__navigation {
-  margin: 80px 10px;
+  margin: 50px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -148,9 +147,9 @@ main img {
   text-transform: uppercase;
 }
 .slider__navigation .next {
-  background-color: var(--c-color-2);
+  background-color: var(--c-color-0);
   border: 2px solid var(--c-black-20);
-  box-shadow: var(--c-color-2) 5px 5px 0px;
+  box-shadow: var(--c-color-0) 5px 5px 0px;
   color: var(--c-black-20);
   cursor: pointer;
   display: inline-block;
