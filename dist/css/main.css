@@ -74,7 +74,7 @@ select {
   width: 100%;
 }
 .header__nav {
-  margin-left: 55%;
+  margin-left: 10%;
   flex-basis: 100%;
 }
 .header__nav ul {
@@ -110,7 +110,7 @@ select {
   background-color: var(--c-color-2);
 }
 
-.slider {
+.slider1 {
   width: 800px;
   height: 450px;
   margin-top: 50px;
@@ -118,17 +118,17 @@ select {
   position: relative;
   overflow: hidden;
 }
-.slider img {
+.slider1 img {
   object-fit: cover;
 }
-.slider__navigation {
+.slider1__navigation {
   margin: 50px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.slider__navigation button {
+.slider1__navigation button {
   margin: 0 10px;
   background: none;
   border: none;
@@ -139,7 +139,7 @@ select {
   font-size: 1.2em;
   text-transform: uppercase;
 }
-.slider__navigation .next {
+.slider1__navigation .next {
   background-color: var(--c-color-0);
   border: 2px solid var(--c-black-20);
   box-shadow: var(--c-color-0) 5px 5px 0px;
@@ -156,18 +156,18 @@ select {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-.slider__navigation .next:after {
+.slider1__navigation .next:after {
   content: ">";
   padding: 0px 5px;
 }
-.slider__navigation .next:hover {
+.slider1__navigation .next:hover {
   background-color: #fff;
 }
-.slider__navigation .next:active {
+.slider1__navigation .next:active {
   box-shadow: var(--c-black-20) 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
-.slider__navigation .previous {
+.slider1__navigation .previous {
   background-color: var(--c-color-1);
   border: 2px solid var(--c-black-20);
   box-shadow: var(--c-color-1) 5px 5px 0px;
@@ -184,14 +184,14 @@ select {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-.slider__navigation .previous:before {
+.slider1__navigation .previous:before {
   content: "<";
   padding: 0px 5px;
 }
-.slider__navigation .previous:hover {
+.slider1__navigation .previous:hover {
   background-color: #fff;
 }
-.slider__navigation .previous:active {
+.slider1__navigation .previous:active {
   box-shadow: var(--c-black-20) 2px 2px 0 0;
   transform: translate(2px, 2px);
 }
